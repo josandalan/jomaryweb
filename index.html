@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">JOMARY</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#quality">Quality</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">JOMARY</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#quality" onclick="toggleMenu()">Quality</a></li>
+          <li><a href="#gallery" onclick="toggleMenu()">Gallery</a></li>
+          <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/jo (5).jpg" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jomary Sandalan</h1>
+        <p class="section__text__p2">Student</p>
+        <div class="btn-container">
+        </div>
+        <div id="socials-container">
+          <img
+            src="assets/icons8-facebook-48.png"
+            alt="My Facebook profile"
+            class="icon"
+            onclick="location.href='https://www.facebook.com/Jomary.Sandalan.27/'"
+          />
+          <img
+            src="assets/icons8-instagram-48.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/j_mary27/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="assets/NATURE.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+        <div class="text-container">
+          <p>
+            I am Jomary Sandalan 20 yrs. old and was born in June 27, 2003. From
+            Katipunan Zamboanga del Norte. A student of Jose Rizal Memorial
+            State University Katipunan Campus, taking course of Bachelor of Science in Computer Science.
+          </p>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h5>Education</h5>
+                      <h4>Primary</h4>
+                      <p>Miatan Elementary School</p>
+                      <p>Miatan, Katipunan Z.N</p>
+                      <p>2011-2016</p>
+            </div>
+
+                        <div class="about-details-container">
+              <div class="about-containers">
+                <div class="details-container">
+                  <img
+                    src="./assets/education.png"
+                    alt="Education icon"
+                    class="icon"
+                  />
+                  <h5>Education</h5>
+                  <h4>Secondary</h4>
+                  <p>Katipunan National High School</p>
+                  <p>Brgy. Uno, Katipunan Z.N</p>
+                  <p>2020-2022</p>
+                </div>
+              </div>
+            </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#quality'"
+        />
+    </section>
+    <section id="quality">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Personal Qualities</h1>
+      <div class="quality-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="quality-sub-title">Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Quality icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Computer Literate</h3>
+                  <p>Skills</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Quality icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Encoding</h3>
+                  <p>Skills</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Quality icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MS Office</h3>
+                  <p>Skills</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Characteristics</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Teachable Person</h3>
+                  <p>Characteristics</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Dedicated</h3>
+                  <p>Characteristics</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Hardworking</h3>
+                  <p>Characteristics</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Work Oriented</h3>
+                  <p>Characteristics</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#gallery'"
+        />
+    </section>
+    <section id="gallery">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Images</h1>
+      <div class="quality-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/jo (4).jpg" alt="Image 1" class="gallery-img" />
+            </div>
+            <h2 class="quality-sub-title gallery-title">Image One</h2>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/jo (3).jpg" alt="Image 2" class="gallery-img" />
+            </div>
+            <h2 class="quality-sub-title gallery-title">Image Two</h2>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/natureb.jpg" alt="Image 3" class="gallery-img" />
+            </div>
+            <h2 class="quality-sub-title gallery-title">Image Three</h2>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contacts'"
+        />
+    </section>
+    <section id="contacts">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="assets/icons8-call-94.png"
+            alt="call icon"
+            class="icon contact-icon call-icon"
+          />
+          <p>
+            <a>0975914352</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="assets/icons8-facebook-48.png"
+            alt="Facebook icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.facebook.com/Jomary.Sandalan.27/"
+              >Facebook</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#quality">Quality</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Jomary Sandalan. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
